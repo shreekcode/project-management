@@ -1,0 +1,54 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    padding:0;
+    margin:0;
+    background-image: url(index.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.index{
+  margin-top: 100px;
+
+}
+#indexlist li {
+    display: inline;
+    list-style: none;
+}
+
+#indexlist li a {
+    text-decoration: none;
+    font-size: larger;
+    color: bisque;
+    padding-left: 40px;
+}
+
+#log {
+    margin-left: 400px;
+}
+
+header {
+    text-align: center;
+    font-size: 60px;
+    box-shadow: 0 0 10px #000;
+}
+
+input {
+    box-shadow: 0 0 10px #666;
+    background-color: #adf0ff;
+}
+
+footer {
+    position:absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 0 10px #000;
+    text-align: center;
+    margin: 0 auto;
+}
